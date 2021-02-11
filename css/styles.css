@@ -1,0 +1,160 @@
+
+
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Staatliches";
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight:bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #800000;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+nav {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.phone-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+.feat-h {
+  color: #990000;
+}
+ .feature-box {
+   text-align: center;
+   padding: 5%
+ }
+
+ .icon {
+   color: #99004d;
+   margin-bottom: 1rem;
+ }
+
+.icon:hover {
+  color: #800000;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #b30000;
+  color: #fff;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+.dog-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #b30000;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone-image {
+    position: static;
+    width: 50%
+  }
+}
+
+#cta {
+  background-color: #ff3b3b;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
